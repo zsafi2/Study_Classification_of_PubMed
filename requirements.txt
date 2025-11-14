@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+fasttext
+transformers>=4.45
+datasets
+evaluate
+accelerate
