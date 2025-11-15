@@ -1,0 +1,8 @@
+model,train,val,test,metric,score,notes
+distilbert_small,data/sample_train_small.csv,data/sample_val_small.csv,data/sample_test_small.csv,Test Macro-F1,0.15504665044955224,best=checkpoint-3760 (local)
+tfidf_linearsvm_small,data/sample_train_small.csv,data/sample_val_small.csv,data/sample_test_small.csv,Test Macro-F1,0.262259,"ngrams=1-2,max_features=100k"
+tfidf_logreg_small,data/sample_train_small.csv,data/sample_val_small.csv,data/sample_test_small.csv,Test Macro-F1,0.259532,"ngrams=1-2,max_features=100k"
+tfidf_nb_small,data/sample_train_small.csv,data/sample_val_small.csv,data/sample_test_small.csv,Test Macro-F1,0.269186,"ngrams=1-2,max_features=100k"
+scibert_small,data/sample_train_small.csv,data/sample_val_small.csv,data/sample_test_small.csv,Test Macro-F1,0.2345,epochs=2 (Colab)
+fasttext_small,data/sample_train_small.csv,data/sample_val_small.csv,data/sample_test_small.csv,Test Acc,0.0135,"epoch=5,dim=100,ngrams=2 (Colab)"
+fasttext_small,data/sample_train_small.csv,data/sample_val_small.csv,data/sample_test_small.csv,Test Macro-F1,0.0005518402715106886,"epoch=5,dim=100,ngrams=2 (local)"
